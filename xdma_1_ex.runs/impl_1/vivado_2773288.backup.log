@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2014.3.1 (64-bit)
+# SW Build 1056140 on Thu Oct 30 16:30:39 MDT 2014
+# IP Build 1028902 on Fri Sep 26 17:35:13 MDT 2014
+# Start of session at: Thu Jun 27 18:16:27 2019
+# Process ID: 2773288
+# Log file: /home/ramon/wkspace/xdma_1_ex/xdma_1_ex.runs/impl_1/vivado.log
+# Journal file: /home/ramon/wkspace/xdma_1_ex/xdma_1_ex.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source download.tcl
+# open_hw
+# connect_hw_server -url 10.68.10.209:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:10.68.10.209:3121
+ERROR: [Labtools 27-2287] HW Server version: 2019.1 does not match Vivado version: 2014.3.1
+ERROR: [Common 17-39] 'connect_hw_server' failed due to earlier errors.
+
+    while executing
+"connect_hw_server -url 10.68.10.209:3121"
+    (file "download.tcl" line 2)
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 27 18:16:58 2019...

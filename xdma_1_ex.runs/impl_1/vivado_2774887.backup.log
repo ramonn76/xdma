@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Jun 27 18:18:35 2019
+# Process ID: 2774887
+# Current directory: /home/ramon/wkspace/xdma_1_ex/xdma_1_ex.runs/impl_1
+# Command line: vivado -mode tcl -source download.tcl
+# Log file: /home/ramon/wkspace/xdma_1_ex/xdma_1_ex.runs/impl_1/vivado.log
+# Journal file: /home/ramon/wkspace/xdma_1_ex/xdma_1_ex.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source download.tcl
+# open_hw
+# connect_hw_server -url 10.68.10.209:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:10.68.10.209:3121
+# current_hw_target [get_hw_targets */xilinx_tcf/Digilent/*]
+# set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/*]
+# open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target 10.68.10.209:3121/xilinx_tcf/Digilent/210203A7C63FA
+# set_property PROGRAM.FILE {xilinx_dma_pcie_ep.bit} [lindex [get_hw_devices] 0]
+# current_hw_device [lindex [get_hw_devices] 0]
+# refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7vx690t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+# program_hw_devices [lindex [get_hw_devices] 0]
+ERROR: [Labtools 27-3165] End of startup status: LOW
+program_hw_devices: Time (s): cpu = 00:00:00.05 ; elapsed = 00:03:56 . Memory (MB): peak = 2151.480 ; gain = 0.000 ; free physical = 46173 ; free virtual = 47876
+ERROR: [Common 17-39] 'program_hw_devices' failed due to earlier errors.
+
+    while executing
+"program_hw_devices [lindex [get_hw_devices] 0]"
+    (file "download.tcl" line 9)
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 27 18:42:36 2019...

@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2014.3.1 (64-bit)
+# SW Build 1056140 on Thu Oct 30 16:30:39 MDT 2014
+# IP Build 1028902 on Fri Sep 26 17:35:13 MDT 2014
+# Start of session at: Thu Jun 27 18:12:36 2019
+# Process ID: 2770785
+# Log file: /home/ramon/wkspace/xdma_1_ex/xdma_1_ex.runs/impl_1/vivado.log
+# Journal file: /home/ramon/wkspace/xdma_1_ex/xdma_1_ex.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+ERROR: [Common 17-356] Failed to install all user apps.
+source download.tcl
+# open_hw
+# connect_hw_server -url bozo:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:bozo:3121
+ERROR: [Labtools 27-2223] Unable to connect to hw_server with URL "TCP:bozo:3121". Check the host name, port number and network connectivity.
+ERROR: [Common 17-39] 'connect_hw_server' failed due to earlier errors.
+
+    while executing
+"connect_hw_server -url bozo:3121"
+    (file "download.tcl" line 2)
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 27 18:13:01 2019...
